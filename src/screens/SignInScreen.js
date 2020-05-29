@@ -29,9 +29,6 @@ const SignInScreen = () => {
 
   // Function to Sign user in
   const signInUser = async () => {
-    console.log("Inside signinuser");
-    console.log(firebaseConfig);
-    console.log(recaptchaVerifier);
 
     try {
       setActivityIndicator(true);
